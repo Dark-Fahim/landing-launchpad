@@ -265,3 +265,34 @@ form input, textarea {
   font-size: 18px;
     
 }
+
+/* Footer styles */
+.footer{
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 100px;
+    text-align: center;
+    border: 1px solid #0000001a;
+}
+
+.footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.footer p{
+    color: #8987A1;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.footer-nav-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.footer-nav-container a{
+    color: #8987A1;
+}
