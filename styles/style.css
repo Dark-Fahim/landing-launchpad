@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     padding: 0;
@@ -21,6 +22,13 @@ li{
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 
 .container{
     max-width: 1140px;
@@ -104,4 +112,45 @@ li{
 
 .action-banner img{
     border-radius: 30px;
+}
+
+
+/* user-container styles */
+.user-container{
+    background-color: #4E47FF1A;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+
+.user-heading{
+    color: #252432;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.users-count{
+    display: flex;
+    justify-content: space-around;
+}
+
+.users-count div{
+    text-align: center;
+}
+
+.users-count h1{
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    color: #4E47FF;
+}
+
+.users-count p{
+    color: #00000080;
+    font-size: 20px;
+    padding-top: 10px;
 }
