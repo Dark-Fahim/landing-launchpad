@@ -154,3 +154,50 @@ li{
     font-size: 20px;
     padding-top: 10px;
 }
+
+/* review section style */
+.review-container{
+    margin-bottom: 100px;
+}
+.review-heading{
+    color: #252432;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.reviews {
+    display: flex;
+    gap: 20px;
+}
+.review{
+    background-color: #ffffff80;
+    border-radius: 10px;
+    border: 1px solid #F2EDED;
+    padding: 24px;
+}
+
+.stars{
+    color: #FFB805;
+}
+
+.review-details h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.review-user{
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+}
+.review-user img{
+    border-radius: 50%;
+}
+
+.review-user h4{
+    color: #8987A1;
+}
+.review-user p{
+    color: #00000080;
+}
