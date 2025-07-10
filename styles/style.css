@@ -201,3 +201,25 @@ li{
 .review-user p{
     color: #00000080;
 }
+
+/* get ready styles */
+
+.ready-container{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 150px;
+    gap: 20px;
+    align-items: center;
+}
+
+.ready-container h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+.ready-container p{
+    color: #00000080;
+}
+
+.ready-container img{
+    border-radius: 20px;
+}
