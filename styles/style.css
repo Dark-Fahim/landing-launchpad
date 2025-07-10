@@ -13,6 +13,9 @@ a{
 li{
     list-style-type: none;
 }
+body{
+    background-color: #FFFFFF80;
+}
 
 
 
@@ -171,7 +174,7 @@ li{
     gap: 20px;
 }
 .review{
-    background-color: #ffffff80;
+    background-color: #ffffff;
     border-radius: 10px;
     border: 1px solid #F2EDED;
     padding: 24px;
@@ -209,6 +212,7 @@ li{
     flex-direction: column;
     padding: 70px 150px;
     gap: 20px;
+    background-color: #fff;
     align-items: center;
 }
 
@@ -222,4 +226,42 @@ li{
 
 .ready-container img{
     border-radius: 20px;
+}
+
+/* get in touch styles */
+.get-in-touch-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.get-in-touch-container h1{
+    font-size: 97px;
+    font-weight: 800;
+    width: 50%;
+}
+
+.form-container{
+    width: 50%;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input, textarea {
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #00000080;
+
+}
+
+.form-container label{
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+    
 }
